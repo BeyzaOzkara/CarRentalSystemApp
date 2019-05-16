@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CarRentalSystemApp.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CarRentalSystemApp.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfAraclarDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AraclarDTO" nillable="true" type="tns:AraclarDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAraclarDTO" nillable="true" type="tns:ArrayOfAraclarDTO" />
+  <xs:complexType name="AraclarDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Airbag" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="AnlikKm" type="xs:float" />
+      <xs:element minOccurs="0" name="AracID" type="xs:int" />
+      <xs:element minOccurs="0" name="BagajHacmi" type="xs:int" />
+      <xs:element minOccurs="0" name="Durum" type="xs:boolean" />
+      <xs:element minOccurs="0" name="EhliyetYasi" type="xs:int" />
+      <xs:element minOccurs="0" name="GunlukKiralikFiyati" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GunukKm" type="xs:float" />
+      <xs:element minOccurs="0" name="KiralikBilgiDTO" nillable="true" type="tns:KiralikBilgiDTO" />
+      <xs:element minOccurs="0" name="KoltukSayisi" type="xs:int" />
+      <xs:element minOccurs="0" name="Marka" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MinYasSiniri" type="xs:int" />
+      <xs:element minOccurs="0" name="Model" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SirketDTO" nillable="true" type="tns:SirketDTO" />
+      <xs:element minOccurs="0" name="SirketID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AraclarDTO" nillable="true" type="tns:AraclarDTO" />
+  <xs:complexType name="KiralikBilgiDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlinanUcret" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AnlikKm" type="xs:float" />
+      <xs:element minOccurs="0" name="AracID" type="xs:int" />
+      <xs:element minOccurs="0" name="AraclarDTO" nillable="true" type="tns:AraclarDTO" />
+      <xs:element minOccurs="0" name="BaslangicTarihi" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="KiralikID" type="xs:int" />
+      <xs:element minOccurs="0" name="MusteriID" type="xs:int" />
+      <xs:element minOccurs="0" name="MusterilerDTO" nillable="true" type="tns:MusterilerDTO" />
+      <xs:element minOccurs="0" name="SonKm" type="xs:float" />
+      <xs:element minOccurs="0" name="TeslimTarihi" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="KiralikBilgiDTO" nillable="true" type="tns:KiralikBilgiDTO" />
+  <xs:complexType name="MusterilerDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EhliyetYasi" type="xs:int" />
+      <xs:element minOccurs="0" name="Isim" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="KiralikBilgiDTO" nillable="true" type="tns:ArrayOfKiralikBilgiDTO" />
+      <xs:element minOccurs="0" name="KullaniciAdi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MusteriID" type="xs:int" />
+      <xs:element minOccurs="0" name="Sifre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Soyisim" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SurucuYasi" type="xs:int" />
+      <xs:element minOccurs="0" name="TelNo" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MusterilerDTO" nillable="true" type="tns:MusterilerDTO" />
+  <xs:complexType name="ArrayOfKiralikBilgiDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="KiralikBilgiDTO" nillable="true" type="tns:KiralikBilgiDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKiralikBilgiDTO" nillable="true" type="tns:ArrayOfKiralikBilgiDTO" />
+  <xs:complexType name="SirketDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Adres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AracSayisi" type="xs:int" />
+      <xs:element minOccurs="0" name="AraclarDTO" nillable="true" type="tns:ArrayOfAraclarDTO" />
+      <xs:element minOccurs="0" name="CalisanlarDTO" nillable="true" type="tns:ArrayOfCalisanlarDTO" />
+      <xs:element minOccurs="0" name="Puan" type="xs:int" />
+      <xs:element minOccurs="0" name="Sehir" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SirketID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SirketDTO" nillable="true" type="tns:SirketDTO" />
+  <xs:complexType name="ArrayOfCalisanlarDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CalisanlarDTO" nillable="true" type="tns:CalisanlarDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCalisanlarDTO" nillable="true" type="tns:ArrayOfCalisanlarDTO" />
+  <xs:complexType name="CalisanlarDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CalisanID" type="xs:int" />
+      <xs:element minOccurs="0" name="Isim" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="KullaniciAdi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sifre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SirketDTO" nillable="true" type="tns:SirketDTO" />
+      <xs:element minOccurs="0" name="SirketID" type="xs:int" />
+      <xs:element minOccurs="0" name="Soyisim" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TelNo" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CalisanlarDTO" nillable="true" type="tns:CalisanlarDTO" />
+</xs:schema>

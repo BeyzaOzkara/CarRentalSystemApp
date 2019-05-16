@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\obj\Debug\CarRentalSystemApp.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\bin\Debug\CarRentalSystemApp.UnitTest.dll
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\bin\Debug\CarRentalSystemApp.UnitTest.pdb
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\bin\Debug\CarRentalSystemApp.DTO.dll
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\bin\Debug\CarRentalSystemApp.Extensions.dll
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\bin\Debug\CarRentalSystemApp.Models.dll
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\bin\Debug\CarRentalSystemApp.DTO.pdb
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\bin\Debug\CarRentalSystemApp.Extensions.pdb
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\bin\Debug\CarRentalSystemApp.Models.pdb
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\obj\Debug\CarRentalSystemApp.UnitTest.dll
+C:\Users\hp\Desktop\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.UnitTest\obj\Debug\CarRentalSystemApp.UnitTest.pdb

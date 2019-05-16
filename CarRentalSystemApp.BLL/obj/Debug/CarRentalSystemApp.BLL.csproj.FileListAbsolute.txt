@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\obj\Debug\CarRentalSystemApp.BLL.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\CarRentalSystemApp.BLL.dll.config
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\CarRentalSystemApp.BLL.dll
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\CarRentalSystemApp.BLL.pdb
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\CarRentalSystem.DAL2.dll
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\CarRentalSystemApp.Models.dll
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\EntityFramework.dll
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\CarRentalSystem.DAL2.pdb
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\CarRentalSystemApp.Models.pdb
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\EntityFramework.xml
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\obj\Debug\CarRentalSystemApp.BLL.dll
+C:\Users\hp\Desktop\Ödevler\soaOdev\HanifeCarRental\CarRentalSystemApp\CarRentalSystemApp.BLL\obj\Debug\CarRentalSystemApp.BLL.pdb
